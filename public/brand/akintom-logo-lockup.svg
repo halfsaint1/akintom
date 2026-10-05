@@ -1,0 +1,11 @@
+<svg viewBox="0 0 250 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Akintom Global Resources">
+  <g transform="translate(0 4)">
+    <path d="M14.2 43.2L26.85 13.55C27.26 12.6 28.74 12.6 29.15 13.55L41.8 43.2" stroke="#0B1F4D" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M19.8 32.5C25.35 29.2 31.05 27.45 37.4 27.3" stroke="#18BDF7" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M35.15 29.55L38.65 27.18L35.02 25.02" stroke="#18BDF7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.75 39.8C11.28 37.42 13.25 35.3 15.55 33.55" stroke="rgba(24,189,247,0.2)" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="28" cy="12.45" r="2.15" fill="#18BDF7"/>
+  </g>
+  <text x="62" y="35" fill="#0B1F4D" font-family="Kumbh Sans, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-1.4">Akintom</text>
+  <text x="64" y="51" fill="#4B5563" font-family="Rubik, Arial, sans-serif" font-size="9" font-weight="800" letter-spacing="2.3">GLOBAL RESOURCES</text>
+</svg>

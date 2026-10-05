@@ -1,0 +1,52 @@
+{
+  "targets": [
+    {
+      "output": "hero-uk-campus.png",
+      "keywords": ["hero", "banner", "slider", "home", "header", "uk", "campus", "study"]
+    },
+    {
+      "output": "about-consultants.png",
+      "keywords": ["about", "consult", "team", "office", "advisor", "staff"]
+    },
+    {
+      "output": "services-guidance.png",
+      "keywords": ["service", "guidance", "support", "admission"]
+    },
+    {
+      "output": "testimonials-graduation.png",
+      "keywords": ["testimonial", "graduate", "graduation", "student", "success"]
+    },
+    {
+      "output": "contact-support.png",
+      "keywords": ["contact", "support", "consultation", "office"]
+    },
+    {
+      "output": "news-education-fair.png",
+      "keywords": ["fair", "event", "education", "expo"]
+    },
+    {
+      "output": "news-scholarships.png",
+      "keywords": ["scholarship", "fund", "award"]
+    },
+    {
+      "output": "news-deadlines.png",
+      "keywords": ["deadline", "calendar", "intake"]
+    },
+    {
+      "output": "news-visa.png",
+      "keywords": ["visa", "passport", "immigration"]
+    },
+    {
+      "output": "news-intakes.png",
+      "keywords": ["intake", "september", "january"]
+    },
+    {
+      "output": "news-hnd.png",
+      "keywords": ["hnd", "top-up", "diploma"]
+    },
+    {
+      "output": "og-image.png",
+      "keywords": ["hero", "banner", "logo", "og", "social"]
+    }
+  ]
+}

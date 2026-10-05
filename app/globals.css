@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0b1f4d;
+  --gold: #d4af37;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+
+  ::selection {
+    background-color: rgba(212, 175, 55, 0.3);
+    color: var(--navy);
+  }
+
+  /* Visible focus for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .container-luxe {
+    @apply mx-auto w-full max-w-container px-5 md:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[13px] font-semibold uppercase tracking-eyebrow;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-10 bg-gold;
+  }
+
+  .display-title {
+    @apply font-display text-[2.5rem] leading-[1.08] tracking-[-0.025em] md:text-[4rem] md:leading-[1.04];
+  }
+
+  .section-title {
+    @apply font-display text-[2rem] leading-[1.12] tracking-[-0.02em] md:text-[2.75rem];
+  }
+
+  .glass {
+    @apply border border-white/20 bg-white/10 backdrop-blur-md;
+  }
+
+  .card-lift {
+    @apply transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-lift;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
